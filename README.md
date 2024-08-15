@@ -1,5 +1,5 @@
-# NetFuzzer
-NetFuzzer is a comprehensive network security assessment tool designed for internal and external networks. It includes features such as host discovery, port scanning, OS detection, SSL enumeration, and SMB and RPC enumeration. This tool uses Nmap, smbclient, rpcclient, and other utilities, with the potential for additional features in the future. NetFuzzer aims to simplify network security assessments and welcomes collaborations and contributions to enhance its functionality and usability.
+# NetCrawl
+NetCrawl is a comprehensive network security assessment tool designed for internal and external networks. It includes features such as host discovery, port scanning, OS detection, SSL enumeration, and SMB and RPC enumeration. This tool uses Nmap, smbclient, rpcclient, and other utilities, with the potential for additional features in the future. NetFuzzer aims to simplify network security assessments and welcomes collaborations and contributions to enhance its functionality and usability.
 
 **Important:** Make sure the tools `Nmap`, `smbclient` & `rpcclient` are installed on your machine and executing correctly to use the `NetFuzzer` without any issues.
 
@@ -19,13 +19,13 @@ NetFuzzer is a comprehensive network security assessment tool designed for inter
 ## Usage
 
 ```sh
-netfuzzer -h
+netcrawl -h
 ```
 
 This will display help for the tool. Here are the options it supports.
 
 ```console
-NetFuzzer is a comprehensive network security assessment tool for internal/external networks including firewalls, routers, switches, Active Directory, SMBs, etc.
+NetCrawl is a comprehensive network security assessment tool for internal/external networks including firewalls, routers, switches, Active Directory, SMBs, etc.
 
 
 Usage: /usr/bin/netfuzzer [options]
@@ -50,8 +50,8 @@ Options:
 
 ## Installation:
 
-To install `NetFuzzer`, follow these steps:
+To install `NetCrawl`, follow these steps:
 
 ```
-git clone https://github.com/0xKayala/NetFuzzer.git && cd NetFuzzer && sudo chmod +x install.sh && ./install.sh && netfuzzer -h && cd ..
+git clone https://github.com/anuj8448/netcrawl && cd netcrawl && sudo chmod +x install.sh && ./install.sh && netcrawl -h && cd ..
 ```
